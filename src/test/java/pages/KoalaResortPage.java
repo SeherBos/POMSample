@@ -30,4 +30,6 @@ public class KoalaResortPage {
     @FindBy(id = "btnSubmit")
     public WebElement submit;
 
+    @FindBy(xpath = "//*[text()='Try again please']")
+    public WebElement girisYapilamadiElementi;
 }

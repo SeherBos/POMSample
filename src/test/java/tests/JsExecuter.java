@@ -83,8 +83,6 @@ public class JsExecuter {
         Assert.assertEquals(recentBlog.getText(),"Recent Blog");
     }
 
-
-
     @Test
     public void alertTest() throws InterruptedException {
         Driver.getDriver().get(ConfigReader.getProperty("application_url"));

@@ -17,12 +17,12 @@ public class C2_ReusableMethodsWebList {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
         AmazonPage amazonPage = new AmazonPage();
-        List<WebElement> allWebElementDataList = amazonPage.allWebElementData;
+        List<WebElement> allWebElementDataList = amazonPage.tumDataWebelementList;
 
 //        System.out.println(allWebElementDataList); // prints out the references
 
-        ReusableMethods.getElementsText(amazonPage.allWebElementData);
-        System.out.println(ReusableMethods.getElementsText(amazonPage.allWebElementData));
+        ReusableMethods.getElementsText(amazonPage.tumDataWebelementList);
+        System.out.println(ReusableMethods.getElementsText(amazonPage.tumDataWebelementList));
     }
 
 }
